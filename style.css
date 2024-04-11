@@ -1,10 +1,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .container {
-    width: 500px;
-    margin: 20px auto;
+    width: 1000px;
+    margin: 10px auto;
 }
 
 .container div.head {
@@ -15,11 +16,17 @@ body {
 
 .head p {
     font-size: 15px;
+    background-color: rgb(206, 104, 76);
+    color: aliceblue;
+    padding: 10px;
 }
 
 .head h1 {
     font-weight: bold;
     text-transform: capitalize;
+    color: rgb(206, 104, 76);
+    background-color: bisque;
+    padding: 50px;
 }
 
 div.nav h3{
@@ -39,6 +46,9 @@ a {
 #bold {
     font-size: 15px;
     font-weight: bold;
+    background-color: rgb(237, 195, 145);
+    color: aliceblue;
+    padding: 30px;
 }
 
 .main p {
@@ -47,4 +57,5 @@ a {
 
 .main h2 {
     line-height: 5px;
+    color: rgb(206, 104, 76);
 }
